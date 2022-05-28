@@ -28,3 +28,4 @@ The file `sheep_LCA_model_param_info.pdf` contains description, baseline value, 
 - **`LCA_feed.m`**: Tallies the total feed intake and calculates impacts of feed production
 - **`LCA_fertilizer.m`**: Calculates impacts of fertilizer production and fertilization
 - **`LCA_farm_operations.m`**: Calculates impacts of farm infrastructure (outdoor area, barns/sheds, etc) and misc. farming operations (water, electricity, heating fuel, diesel, tilling, plastic, and transportation)
+- **`LCA_total_FU.m`**: Calculates allocation factor and estimates life cycle impacts per functional unit
