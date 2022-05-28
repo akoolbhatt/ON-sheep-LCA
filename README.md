@@ -24,6 +24,7 @@ The file `sheep_LCA_model_param_info.pdf` contains description, baseline value, 
    - d) runs subsequent scripts in 'Modules' to determine cradle-to-gate life cycle impacts
 - **`enteric_ferm.m`**: Calculates livestock's net energy (NE) and gross energy (GE) requirements, and per-head enteric CH4 emisisons
 - **`'forage_amount.m`**: Estimates DMI from roughage/grazing
-- - **`manure_mgmt.m`**: Estiamtes manure CH4 emisisons and nitrogen-based GHG emissions (through nitrogen balance)
-- - **`LCA_feed.m`**: Tallies the toal feed intake and calculates impacts of feed production
-- - **`LCA_fertilizer.m`**: 
+- **`manure_mgmt.m`**: Estiamtes manure CH4 emisisons and nitrogen-based GHG emissions (through nitrogen balance)
+- **`LCA_feed.m`**: Tallies the toal feed intake and calculates impacts of feed production
+- **`LCA_fertilizer.m`**: Calculates impacts of fertiler production and fertilization
+- **`LCA_farm_operations.m`**: Calculates impacts of farm infrastructure (outdoor area, barns/sheds, etc) and misc. farming operations (water, electricity, heating fuel, diesel, tilling, plastic, and transportation)
