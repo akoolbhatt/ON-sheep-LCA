@@ -9,9 +9,9 @@ The live script `sheep_LCA_IO.mlx` may be used as an example to see how input ar
 
 ### Model file requirements:
 The Model input-output live script `sheep_LCA_IO.mlx` requires the following files to work:
-- Requires the spreadsheet `MATLAB_inputs.xlsx`
-- Requires the LCA model script `sheep_LCA_model.m`
-- Requires the followings scripts in the 'Modules' folder: `enteric_ferm.m`, `forage_amount.m`, `manure_mgmt.m`, `LCA_farm_operations.m`, `LCA_feed.m`, `LCA_fertilizer.m`, and `LCA_total_FU.m`
+- spreadsheet `MATLAB_inputs.xlsx`
+- LCA model script `sheep_LCA_model.m`
+- The followings scripts in the 'Modules' folder: `enteric_ferm.m`, `forage_amount.m`, `manure_mgmt.m`, `LCA_farm_operations.m`, `LCA_feed.m`, `LCA_fertilizer.m`, and `LCA_total_FU.m`
 
 ### Model input parameter/variable description:
 The file `sheep_LCA_model_param_info.pdf` contains description, baseline value, and source of input parameters/variables accepted into the LCA model. The baseline values represent average sheep farming practices in Ontario, Canada.
