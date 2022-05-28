@@ -15,3 +15,12 @@ The Model input-output live script `sheep_LCA_IO.mlx` requires the following fil
 
 #### Model input parameter/variable description:
 The file `sheep_LCA_model_param_info.pdf` contains description, baseline value, and source of input parameters/variables accepted into the LCA model. The baseline values represent average sheep farming practices in Ontario, Canada.
+
+#### Model script description
+- `sheep_LCA_model.m`: This script does the following 
+   - a) combines related variables into arrays, 
+   - b) displays error, aborts calculations if invalid inputs are detected, 
+   - c) estimates forage amount through iterative energy balance, and
+   - d) runs subsequent scripts in 'Modules' to determine cradle-to-gate life cycle impacts
+- `'enteric_ferm.m`: This script...
+- 
