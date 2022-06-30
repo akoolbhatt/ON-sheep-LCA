@@ -13,7 +13,6 @@ end
 
 % Energy from inputted grain amounts [MJ/head/day]
 S.E_grain = S.DMI_grain * S.DMI_energy_grain * S.DE_grain * (1 - S.feed_waste);
-%S.E_grain = S.DMI_grain * S.DMI_energy_grain * (1 - S.feed_waste);
 
 % Estimated energy from forage [MJ/head/day]
 S.E_forage = S.GE - S.E_grain;
