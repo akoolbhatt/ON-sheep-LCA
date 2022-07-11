@@ -31,4 +31,4 @@ The file `sheep_LCA_model_param_info.pdf` contains description, baseline value, 
 - **`LCA_total_FU.m`**: Calculates allocation factor and estimates life cycle impacts per functional unit
 
 ### A note on allocation:
-Allocation towards sheep meat and wool is done using protein mass allocation (PMA), assuming protein content of meat and wool to be 18% and 65%, respectively. If primary enterprises are sheep milk and meat (i.e., `enterprise = 3`) then the ratio of `NE lactation : (NE lactation + NE growth)` is used instead.
+Allocation towards sheep meat and wool is done using protein mass allocation (PMA), assuming protein content of meat and wool to be 18% and 65%, respectively. If primary enterprises are sheep milk and meat (i.e., `enterprise = 3`) then the ratio of NE lactation : (NE lactation + NE growth) is used for allocation instead.
