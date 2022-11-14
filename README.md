@@ -1,7 +1,7 @@
 # ON-sheep-LCA
 ## Sheep LCA model using Ontario-specific sheep farming data
 
-This script package is intended to be used as supplementary material for the manuscript: ***Life cycle impacts of sheep sector in Ontario, Canada*** by **Akul Bhatt** and **Bassim Abbassi**
+This script package is intended to be used as supplementary material for the manuscript: [***Life cycle impacts of sheep sector in Ontario, Canada***](https://link.springer.com/article/10.1007/s11367-022-02105-1) by **Akul Bhatt** and **Bassim Abbassi**
 
 This script package imports parameter values (representing farming practices and environmental factors) and LCIA impact factors stored in `MATLAB_inputs.xlsx`, and stores them as MATLAB variables. The variables are used as input arguments in the LCA model (`sheep_LCA_model.m`), which outputs life cycle impacts in the categories of global warming (GW), energy demand (ED), and water depletion (WD). 
  
