@@ -7,7 +7,9 @@ This script package imports parameter values (representing farming practices and
 
 The full LCA outputs for the data presented/summarized in the manuscript *Life cycle impacts of sheep sector in Ontario, Canada* can be obtained simply by executing the script `sheep_LCA_farmdata.m`. Its execution will import (from the spreadsheet `MATLAB_inputs_outputs.xlsx`) the foreground data on sheep farming practices as well as relevant environmental factors and impact factors into the LCA model. It will also export the LCA outputs back into the spreadsheet. 
  
-The live script `sheep_LCA_farmdata.mlx` may also be used as an example to see how input arguments in `MATLAB_inputs_outputs.xlsx` can be passed on to the LCA model. Model results deemed important (e.g., life cycle impacts per functional unit, total daily matter intake (DMI), etc.) are also tabulated at the end of this live script. 
+ ![My Image](Excel-MATLAB image.jpg)
+ 
+The live script `sheep_LCA_IO.mlx` may also be used as an example to see how input arguments in `MATLAB_inputs_outputs.xlsx` can be passed on to the LCA model. Model results deemed important (e.g., life cycle impacts per functional unit, total daily matter intake (DMI), etc.) are also tabulated at the end of this live script. 
 
 ### Model file requirements:
 The scripts `sheep_LCA_farmdata.m` or `sheep_LCA_IO.mlx` requires the following files to work:
